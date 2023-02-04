@@ -49,7 +49,7 @@
         android:textOff="spinach"
         android:textOn="spinach"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="209dp" />
+        tools:layout_editor_absoluteY="203dp" />
 
     <TextView
         android:id="@+id/frizz_A"
@@ -63,17 +63,19 @@
         tools:layout_editor_absoluteY="152dp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/generate_A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
         android:text="Generate Recipes"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="636dp" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/delete_A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
         android:text="Delete"
         tools:layout_editor_absoluteX="275dp"
         tools:layout_editor_absoluteY="636dp" />
