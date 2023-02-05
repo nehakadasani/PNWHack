@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:ignore="ExtraText" android:layout_height="">    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/checkbox_A"
     android:background="@color/purple_500"
@@ -78,4 +77,4 @@
         tools:layout_editor_absoluteX="285dp"
         tools:layout_editor_absoluteY="636dp" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42587134445",
+    "project_id": "cookify-a2413",
+    "storage_bucket": "cookify-a2413.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42587134445:android:f33b5623fb754b4447afe4",
+        "android_client_info": {
+          "package_name": "com.example.pnwhack_a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42587134445-2ifr868e6s7jptgjfd0kmm1gn5eqmq44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa05XGBTJ-K7bHSlTnqVNBDvj4VpRFqi4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42587134445-2ifr868e6s7jptgjfd0kmm1gn5eqmq44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
