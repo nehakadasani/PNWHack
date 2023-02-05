@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="ExtraText" android:layout_height="">    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/checkbox_A"
+    android:background="@color/purple_500"
+    android:backgroundTint="@color/purple_500"
+    android:foregroundTint="@color/purple_200"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2E5DD">
+    tools:context=".input_A">
 
+    <ListView
+        android:id="@+id/list_view_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
     <TextView
         android:id="@+id/Ingrizz_A"
         android:layout_width="131dp"
@@ -18,7 +30,7 @@
         tools:layout_editor_absoluteY="99dp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Add_A"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="@color/purple_200"
@@ -27,7 +39,7 @@
         tools:layout_editor_absoluteY="32dp" />
 
     <EditText
-        android:id="@+id/textView2"
+        android:id="@+id/textView2_A"
         android:layout_width="201dp"
         android:layout_height="44dp"
         android:capitalize="none"
@@ -36,20 +48,6 @@
         tools:layout_editor_absoluteX="162dp"
         tools:layout_editor_absoluteY="91dp" />
 
-
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="86dp"
-        android:layout_height="40dp"
-        android:background="@color/purple_200"
-        android:backgroundTint="@color/purple_200"
-        android:checked="true"
-        android:fontFamily="sans-serif"
-        android:text="spinach"
-        android:textOff="spinach"
-        android:textOn="spinach"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="203dp" />
 
     <TextView
         android:id="@+id/frizz_A"
@@ -73,11 +71,11 @@
 
     <Button
         android:id="@+id/delete_A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="94dp"
+        android:layout_height="48dp"
         android:backgroundTint="@color/purple_200"
         android:text="Delete"
-        tools:layout_editor_absoluteX="275dp"
+        tools:layout_editor_absoluteX="285dp"
         tools:layout_editor_absoluteY="636dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
